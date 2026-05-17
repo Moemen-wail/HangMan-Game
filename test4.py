@@ -361,6 +361,7 @@ def choose_category(category):
         word_label.place_forget()
         lives_label.place_forget()
         hint_label.place_forget()
+        category_label.place_forget()
         
 
 
