@@ -134,7 +134,7 @@ keyboard_buttons = []
 
 for letter in letters:
     
-    button3 = Button(
+    button3 = Button( 
         frame2,
         text=letter,
         width=3,
