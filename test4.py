@@ -518,6 +518,8 @@ def letter_click(letter, button):
     if letter not in chosen_word:
         lives -= 1
         lives_label.config(text=f"Lives: {lives}")
+        frame2.place_forget
+
 
     if "_" not in display:
         message_label.config(text="YOU WIN <3")
@@ -526,6 +528,21 @@ def letter_click(letter, button):
     if lives == 0:
         message_label.config(text=f"YOU LOSE 💀Word was: {chosen_word}")
         disable_buttons()
+        frame2.place_forget()
+        img_label4.place_forget()
+        img_label5.place_forget()
+        button4.place_forget()
+        category_label.place_forget()
+
+        word_label.place_forget()
+        lives_label.place_forget()
+        hint_label.place_forget()
+        message_label.place_forget()
+
+        img_labell.place(relx=0.5, rely=0.32, anchor="center")
+        buttonp.place(relx=0.59,rely=0.85,anchor="center")
+        buttone.place( relx=0.35,rely=0.85,anchor="center")
+        
 
     if lives == 5:
         img_label5.config(image=imgh1)
@@ -560,6 +577,33 @@ imgh5 = imgh5.subsample(2, 2)
 
 imgh6= PhotoImage(file='photo/h6.png')
 imgh6 = imgh6.subsample(2, 2)
+
+imgl= PhotoImage(file='photo/l.png')
+imgl = imgl.subsample(2, 2)
+img_labell = Label(window, image=imgl, bg='#2C2C2C')
+
+buttonp = Button(
+    window,
+    text='Play again',
+    font=('Consolas', 32, 'bold'),
+    bg="#450011",
+    fg='#8FAADC',
+    activebackground="#8FAADC",
+    activeforeground='#450011'
+)  
+
+
+
+buttone = Button(
+    window,
+    text='Exit',
+    font=('Consolas', 32, 'bold'),
+    bg="#450011",
+    fg='#8FAADC',
+    activebackground="#8FAADC",
+    activeforeground='#450011'
+)  
+
 
 
 
