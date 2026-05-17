@@ -524,6 +524,19 @@ def letter_click(letter, button):
     if "_" not in display:
         message_label.config(text="YOU WIN <3")
         disable_buttons()
+        frame2.place_forget()
+        img_label4.place_forget()
+        img_label5.place_forget()
+        button4.place_forget()
+        category_label.place_forget()
+
+        word_label.place_forget()
+        lives_label.place_forget()
+        hint_label.place_forget()
+        message_label.place_forget()
+        img_labelw.place(relx=0.5, rely=0.32, anchor="center")
+        buttonp.place(relx=0.59,rely=0.85,anchor="center")
+        buttone.place( relx=0.35,rely=0.85,anchor="center")
 
     if lives == 0:
         message_label.config(text=f"YOU LOSE 💀Word was: {chosen_word}")
@@ -539,7 +552,7 @@ def letter_click(letter, button):
         hint_label.place_forget()
         message_label.place_forget()
 
-        img_labell.place(relx=0.5, rely=0.32, anchor="center")
+        img_labell.place(relx=0.517, rely=0.32, anchor="center")
         buttonp.place(relx=0.59,rely=0.85,anchor="center")
         buttone.place( relx=0.35,rely=0.85,anchor="center")
         
@@ -581,6 +594,11 @@ imgh6 = imgh6.subsample(2, 2)
 imgl= PhotoImage(file='photo/l.png')
 imgl = imgl.subsample(2, 2)
 img_labell = Label(window, image=imgl, bg='#2C2C2C')
+
+imgw= PhotoImage(file='photo/w.png')
+imgw = imgw.subsample(2, 2)
+img_labelw = Label(window, image=imgw, bg='#2C2C2C')
+
 
 buttonp = Button(
     window,
