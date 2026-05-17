@@ -12,7 +12,7 @@ window.config(bg="#2C2C2C")
 
 imghow=PhotoImage(file='photo/htp.png')
 imghow = imghow.subsample(2, 2)
-img_label3 = Label(window, image=imghow, bg='#2C2C2C')
-img_label3.place(relx=0.5, rely=0.49, anchor="center")
+img_labelhow = Label(window, image=imghow, bg='#2C2C2C')
+img_labelhow.place(relx=0.5, rely=0.49, anchor="center")
 
 window.mainloop() 

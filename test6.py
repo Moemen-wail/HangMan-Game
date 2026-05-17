@@ -18,7 +18,7 @@ img_label3.place(relx=0.5, rely=0.32, anchor="center")
 button = Button(
     window,
     text='Play again',
-    font=('French Script MT', 32, 'bold'),
+    font=('Consolas', 32, 'bold'),
     bg="#450011",
     fg='#8FAADC',
     activebackground="#8FAADC",
