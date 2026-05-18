@@ -19,7 +19,6 @@ IT_word_list = [
     "internet", "network", "database", "server",
     "coding", "algorithm", "cybersecurity"
 ]
-
 Animals_word_list = [
     "leopard", "cheetah", "hyena", "wolf",
     "fox", "zebra", "rhinoceros", "lion",
@@ -27,7 +26,6 @@ Animals_word_list = [
     "cat", "horse", "bear", "beaver",
     "lizard"
 ]
-
 countries_word_list = [
     "united states", "spain", "portugal", "netherlands",
     "sweden", "norway", "switzerland", "poland",
@@ -36,7 +34,6 @@ countries_word_list = [
     "egypt", "germany", "italy", "mexico",
     "australia", "turkey", "palestine"
 ]
-
 food_word_list = [
     "sushi", "tacos", "lasagna", "steak",
     "grilled chicken", "ramen", "kebab", "falafel",
@@ -46,14 +43,12 @@ food_word_list = [
     "meat loaf", "chicken wings", "hotdog", "salmon",
     "fish and chips"
 ]
-
 instruments_word_list = [
     "electric guitar", "organ", "harmonica", "guitar",
     "piano", "violin", "drums", "flute",
     "trumpet", "saxophone", "cello", "harp",
     "clarinet", "recorderguitar"
 ]
-
 superheroes_word_list = [
     "superman", "spiderman", "batman", "ironman",
     "wonder woman", "hulk", "captain america", "antman",
@@ -61,7 +56,6 @@ superheroes_word_list = [
     "loki", "captain marvel", "deadpool", "scarlet witch",
     "hawkeye", "flash", "aquaman"
 ]
-
 makeup_word_list = [
     "foundation", "concealer", "powder", "blush",
     "bronzer", "highlighter", "mascara", "eyeliner",
@@ -69,21 +63,18 @@ makeup_word_list = [
     "eyebrow pencil", "brow gel", "eyelash curler", "false lashes",
     "glitter", "lip liner", "corrector", "contour"
 ]
-
 space_word_list = [
     "planet", "galaxy", "asteroid", "comet",
     "satellite", "spaceship", "astronaut",
     "black hole", "supernova", "orbit", "meteor",
     "rocket", "moon", "star"
 ]
-
 underwater_world_list = [
     "shark", "whale", "octopus", "jellyfish",
     "seahorse", "crab", "lobster", "dolphin",
     "seal", "atlantis", "starfish", "coral",
     "squid", "sea turtle"
 ]
-
 musicians_word_list = [
     "britney spears", "christina aguilera", "avril lavigne", "kelly clarkson",
     "jennifer lopez", "lady gaga", "dua lipa", "lana del rey",
@@ -92,7 +83,6 @@ musicians_word_list = [
     "the weeknd", "billie eilish", "bruno mars", "rihanna",
     "justin bieber", "michael jackson", "radiohead"
 ]
-
 colors_word_list = [
     "crimson", "amber", "sapphire", "emerald",
     "charcoal", "mustard", "olive", "peach",
